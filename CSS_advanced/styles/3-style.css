@@ -15,7 +15,7 @@ a {
 }
 
 .card-category, .section-tagline {
-  color: var(--color-primarly);
+  color: var(--color-primary);
 }
 
 :root {
