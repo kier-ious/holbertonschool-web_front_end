@@ -408,36 +408,6 @@ a:active {
   margin-right: auto;
 }
 
-.navbar-menu {
-  float: right;
-}
-
-.nav {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.nav .nav-item {
-  font-family: var(--nav-item-front-family);
-  font-weight: var(--nav-item-front-weight);
-  font-size: var(--nav-item-front-size);
-  letter-spacing: var(--nav-item-letter-spacing);
-  display: var(--nav-item-display);
-  margin: var(--nav-item-margin);
-}
-
-.nav .nav-link {
-  display: block;
-  padding: calc(0.5 8 1rem) 1rem;
-  color: var(--text-color);
-  transition: color 0.3s;
-}
-
-.nav .nav-link:hover {
-  color: var(--nav-item-link-hover);
-}
-
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -495,6 +465,36 @@ a:active {
 
 .footer {
   padding: var(--footer-padding);
+}
+
+.navbar-menu {
+  float: right;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav .nav-item {
+  font-family: var(--nav-item-front-family);
+  font-weight: var(--nav-item-front-weight);
+  font-size: var(--nav-item-front-size);
+  letter-spacing: var(--nav-item-letter-spacing);
+  display: var(--nav-item-display);
+  margin: var(--nav-item-margin);
+}
+
+.nav .nav-link {
+  display: block;
+  padding: calc(0.5 8 1rem) 1rem;
+  color: var(--text-color);
+  transition: color 0.3s;
+}
+
+.nav .nav-link:hover {
+  color: var(--nav-item-link-hover);
 }
 
 h1, h2, h3, h4, h5, h6 {
