@@ -440,9 +440,9 @@ a:active {
   --nav-item-front-family: var(--front-family-title);
   --nav-item-front-weight: var(--front-weight-bold);
   --nav-item-front-size: var(--font-size-medium);
-  --nav-item-letter-spacing: 4%;
+  --nav-item-letter-spacing: 0.04rem;
   --nav-item-display: inline-block;
-  --nav-item-margin: calc(3 * 1rem) 0 0 0;
+  --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
 }
 
@@ -461,6 +461,15 @@ a:active {
 .section-footer {
   padding: var(--section-footer-padding);
   text-align: var(--section-footer-align);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-bold);
+}
+
+.section-header {
+  text-align: var(--section-header-align);
 }
 
 .footer {
@@ -495,13 +504,4 @@ a:active {
 
 .nav .nav-link:hover {
   color: var(--nav-item-link-hover);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-title);
-  font-weight: var(--font-weight-bold);
-}
-
-.section-header {
-  text-align: var(--section-header-align);
 }
