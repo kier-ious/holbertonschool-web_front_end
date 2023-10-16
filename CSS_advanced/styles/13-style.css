@@ -17,15 +17,15 @@ a:link {
 }
 
 a:visted {
-  font_style: italic;
+  font-style: italic;
 }
 
 a:hover {
-  text-declaration: underline;
+  text-decoration: underline;
 }
 
 a:active {
-  backgrounnd-color: var(--color-light-grey);
+  background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
