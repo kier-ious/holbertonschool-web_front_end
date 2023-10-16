@@ -23,7 +23,7 @@ a {
 .card-category, .section-tagline {
   color: var(--color-primary);
   font-family: var(--font-family-title);
-  font-weight: var(--font-family-title);
+  font-weight: var(--font-weight-bold);
   text-transform: var(--section-tagline-transform);
 }
 
