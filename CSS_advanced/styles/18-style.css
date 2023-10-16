@@ -473,7 +473,7 @@ a:active {
   --nav-item-letter-spacing: 4%;
   --nav-item-display: inline-block;
   --nav-item-margin: calc(3 * 1rem) 0 0 0;
-  --nav-tem-link-hover: var(--color-primary);
+  --nav-item-link-hover: var(--color-primary);
 }
 
 .section {
