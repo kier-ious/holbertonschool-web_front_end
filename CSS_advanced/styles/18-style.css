@@ -446,11 +446,17 @@ a:active {
   --nav-item-link-hover: var(--color-primary);
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-bold);
+}
+
 .section {
   padding: var(--section-padding);
 }
 
 .section-header {
+  text-align: var(--section-header-align);
   padding: var(--section-header-padding);
 }
 
@@ -461,15 +467,6 @@ a:active {
 .section-footer {
   padding: var(--section-footer-padding);
   text-align: var(--section-footer-align);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-title);
-  font-weight: var(--font-weight-bold);
-}
-
-.section-header {
-  text-align: var(--section-header-align);
 }
 
 .footer {
