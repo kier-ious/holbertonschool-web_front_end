@@ -658,7 +658,7 @@ ul.row {
   background-color: var(--color-white);
   width: 0;
   height: 0.2rem;
-  transition: transform var(--transition-duration) var(--transition-cubic-bezier);
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .nav .nav-item:hover .nav-link::before {
@@ -689,7 +689,7 @@ ul.row {
   left: -0.1rem;
   right: -0.1rem;
   z-index: 1;
-  transition: transform var(--transition-duration) var(--transition-cubic-bezier);
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-title {
