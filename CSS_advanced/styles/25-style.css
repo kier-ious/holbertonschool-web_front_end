@@ -565,6 +565,7 @@ ul.row {
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
   background: var(--color-black);
+  --button-color: var(--color-white);
 }
 
 .card-services .card-title {
@@ -592,8 +593,8 @@ ul.row {
   text-decoration: var(--button-text-decoration);
 }
 
-.button-hover {
+.button:hover {
   color: var(--button-hover-color);
-  text-decoration: var(--button-text-decoration);
+  text-decoration: var(--button--hover-text-decoration);
   background: var(--button-hover-background);
 }
