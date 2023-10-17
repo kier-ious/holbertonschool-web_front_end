@@ -663,7 +663,7 @@ ul.row {
   width: 100%;
 }
 
-.card-work .cardouter {
+.card-work {
   position: relative;
   overflow: hidden;
 }
@@ -671,11 +671,11 @@ ul.row {
 .card-work .card-image img {
   height: 30rem;
   width: 100%;
-  object-fir: cover;
+  object-fit: cover;
   vertical-align: bottom;
 }
 
-,card-work .card-inner {
+.card-work .card-inner {
   position: absolute;
   top: -0.1rem;
   left: -0.1rem;
@@ -683,7 +683,7 @@ ul.row {
   z-index: 1;
 }
 
-.card-work .card-title {
+.card-work:hover .card-inner {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
