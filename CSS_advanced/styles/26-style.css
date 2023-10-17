@@ -608,3 +608,9 @@ ul.row {
   width: 10em;
   height: 10em;
 }
+
+.card-testimonial .card-quote cite {
+  display: block;
+  padding-top: 1rem;
+  color: var(--color-primary);
+}
