@@ -564,7 +564,7 @@ ul.row {
 
 .card-services a {
   display: block;
-  padding: 1px var(--front-seize-medium);
+  padding: 2px var(--front-seize-medium);
   background-color: var(--color-light-grey);
 }
 
