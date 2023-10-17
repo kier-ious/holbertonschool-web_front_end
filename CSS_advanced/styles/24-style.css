@@ -557,3 +557,19 @@ ul.row {
   --section-title-color: var(--color-white);
   background: var(--color-black);
 }
+
+.card-services .card-title {
+  margin: 0;
+}
+
+.card-services a {
+  display: block;
+  padding: 1px var(--front-seize-medium);
+  background-color: var(--color-light-grey);
+}
+
+.card-services a:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  text-decoration: none;
+}
